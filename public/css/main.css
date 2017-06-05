@@ -1,0 +1,41 @@
+.masthead {
+  padding: 90px 0 80px;
+}
+.jumbotron {
+  background-color: #6f5499;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.project-header h2 {
+  color: #000000;
+}
+
+.footer {
+  color: #777;
+  padding: 30px 0;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 70px;
+}
+
+
+#scrollUp {
+  background-color: #777;
+  color: #eee;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  bottom: 100px;
+  right: 20px;
+  overflow: hidden;
+  width: 46px;
+  height: 46px;
+  border: none;
+  opacity: 0.8;
+}
+
+
+.energer-bg {
+  background-color: #c7254e;
+}

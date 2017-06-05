@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
-//    return view('welcome');
     return view('index');
 });
+
+
+Auth::routes();
+
+Route::get('/energe', 'EnergeController@index')->name('energe');
+Route::get('/energe/module', 'EnergeController@module')->name('energeModule');

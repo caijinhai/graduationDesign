@@ -6,7 +6,7 @@
                     <div class="panel-heading">Hello Component</div>
 
                     <div class="panel-body">
-                        Hello world!
+                        {{ message }}
                     </div>
                 </div>
             </div>
@@ -16,6 +16,10 @@
 
 <script>
     export default {
-       name: 'app'
+        data() {
+            return {
+                message: 'Hello world!'
+            }
+        }
     }
 </script>
